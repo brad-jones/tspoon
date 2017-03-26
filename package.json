@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "tspoon",
+  "name": "@brad-jones/tspoon",
   "version": "1.0.357",
   "description": "AST visitors for TypeScript",
   "main": "./dist/src/index.js",
@@ -26,7 +26,8 @@
   "contributors": [
     "Amir Arad <amira@wix.com> (http://github.com/amir-arad)",
     "Doron Tsur <doront@wix.com> (http://github.com/qballer)",
-    "Gady Guy <gadig@wix.com> (https://github.com/gadiguy)"
+    "Gady Guy <gadig@wix.com> (https://github.com/gadiguy)",
+    "Brad Jones <brad@bjc.id.au> (https://github.com/brad-jones)"
   ],
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
@@ -52,13 +53,16 @@
     "rimraf": "2.6.1",
     "ts-loader": "2.0.3",
     "webpack": "1.14.0",
-    "webpack-dev-server": "1.16.2"
+    "webpack-dev-server": "1.16.2",
+    "typescript": "2.1.6"
   },
   "dependencies": {
     "lodash": "4.17.4",
     "magic-string": "0.19.0",
     "source-map": "0.5.6",
-    "source-map-support": "0.4.14",
-    "typescript": "2.1.6"
+    "source-map-support": "0.4.14"
+  },
+  "peerDependencies": {
+    "typescript": "^2.1.6"
   }
 }
