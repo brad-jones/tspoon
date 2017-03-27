@@ -1,5 +1,6 @@
 # Built assets
 dist
+upstream
 
 # Logs
 logs

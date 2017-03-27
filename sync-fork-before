@@ -1,0 +1,53 @@
+#!/usr/bin/env node
+var fs = require('fs');
+var shell = require('shelljs');
+
+// Clone the upstream repo. We do not bother rebasing or merging, etc.
+// I never want to deal with any merge conflicts. Effectively all of "our"
+// changes to this project are contained in this script.
+shell.exec('git clone git@github.com:wix/tspoon.git ./upstream');
+
+// Lets see if there are any new releases.
+// If not we will bail out of this build early.
+var lastestTag = shell.exec('git describe --abbrev=0 --tags').stdout;
+var lastestUpstreamTag = shell.exec('git --git-dir ./upstream/.git --work-tree ./upstream describe --abbrev=0 --tags').stdout;
+if (lastestTag === lastestUpstreamTag) process.exit(1);
+
+// Checkout the latest upstream tag.
+shell.exec('git --git-dir ./upstream/.git --work-tree ./upstream checkout ' + lastestUpstreamTag);
+
+// Copy across all the changes we want.
+shell.rm('-rf', './examples'); shell.cp('-R', './upstream/examples', './');
+shell.rm('-rf', './src'); shell.cp('-R', './upstream/src', './');
+shell.rm('-rf', './test'); shell.cp('-R', './upstream/test', './');
+shell.rm('-rf', './test-kit'); shell.cp('-R', './upstream/test-kit', './');
+shell.rm('-rf', './typings'); shell.cp('-R', './upstream/typings', './');
+shell.cp('./upstream/karma.conf.js', './');
+shell.cp('./upstream/package.json', './');
+shell.cp('./upstream/tsconfig.json', './');
+shell.cp('./upstream/webpack.config.js', './');
+shell.cp('./upstream/yarn.lock', './');
+
+// Apply some updates to package.json
+var pkg = require(__dirname + '/package.json');
+pkg.name = '@brad-jones/tspoon';
+pkg.contributors.push('Brad Jones <brad@bjc.id.au> (https://github.com/brad-jones)');
+pkg.homepage = 'https://github.com/brad-jones/tspoon';
+pkg.bugs.url = 'https://github.com/brad-jones/tspoon/issues';
+pkg.repository.url = 'git@github.com:brad-jones/tspoon.git';
+
+// And this is what this fork is all about.
+// Here we remove the hard dependency on typescript and make it a peer dependency.
+var supportedTsVersion = pkg.dependencies.typescript;
+pkg.peerDependencies = {};
+pkg.peerDependencies.typescript = '>='+supportedTsVersion;
+pkg.devDependencies.typescript = supportedTsVersion;
+delete pkg.dependencies.typescript;
+
+// Write the new package.json
+fs.writeFileSync(__dirname + '/package.json', JSON.stringify(pkg, null, 2));
+
+// Commit the changes, these will only be pushed and published if the tests pass.
+shell.exec('git add -A');
+shell.exec('git commit -m "Automatically syned with upstream github.com:wix/tspoon"');
+shell.exec('git tag '+lastestUpstreamTag);

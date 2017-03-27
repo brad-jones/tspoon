@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+var shell = require('shelljs');
+shell.exec('git push https://'+process.env.GH_TOKEN+'@github.com/brad-jones/tspoon.git master');
+shell.exec('git push https://'+process.env.GH_TOKEN+'@github.com/brad-jones/tspoon.git --tags');
+shell.exec('npm publish --access public');
