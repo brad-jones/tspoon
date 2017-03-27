@@ -5,7 +5,7 @@ var shell = require('shelljs');
 // Clone the upstream repo. We do not bother rebasing or merging, etc.
 // I never want to deal with any merge conflicts. Effectively all of "our"
 // changes to this project are contained in this script.
-shell.exec('git clone git@github.com:wix/tspoon.git ./upstream');
+shell.exec('git clone https://'+process.env.GH_TOKEN+'@github.com/wix/tspoon.git ./upstream');
 
 // Lets see if there are any new releases.
 // If not we will bail out of this build early.
