@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:wix/tspoon.git"
+    "url": "git@github.com:brad-jones/tspoon.git"
   },
   "author": "Gady Guy <gadig@wix.com> (https://github.com/gadiguy)",
   "contributors": [
@@ -31,9 +31,9 @@
   ],
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/wix/tspoon/issues"
+    "url": "https://github.com/brad-jones/tspoon/issues"
   },
-  "homepage": "https://github.com/wix/tspoon",
+  "homepage": "https://github.com/brad-jones/tspoon",
   "devDependencies": {
     "@types/chai": "3.4.35",
     "@types/lodash": "4.14.55",
@@ -63,6 +63,6 @@
     "source-map-support": "0.4.14"
   },
   "peerDependencies": {
-    "typescript": "^2.1.6"
+    "typescript": ">=2.1.6"
   }
 }
