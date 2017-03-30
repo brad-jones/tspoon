@@ -28,6 +28,11 @@ shell.cp('./upstream/tsconfig.json', './');
 shell.cp('./upstream/webpack.config.js', './');
 shell.cp('./upstream/yarn.lock', './');
 
+// Add the upstream into the excludes
+var tsconfig = require(__dirname + '/tsconfig.json');
+tsconfig.exclude.push('upstream');
+fs.writeFileSync(__dirname + '/tsconfig.json', JSON.stringify(tsconfig, null, 2));
+
 // Apply some updates to package.json
 var pkg = require(__dirname + '/package.json');
 pkg.name = '@brad-jones/tspoon';
