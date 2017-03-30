@@ -2,6 +2,11 @@
 var fs = require('fs');
 var shell = require('shelljs');
 
+// Make sure we are at the HEAD on master.
+// When it comes time to commit after a successful build we end up
+// commiting on a detached head which is just silly.
+shell.exec('git checkout master');
+
 // Clone the upstream repo. We do not bother rebasing or merging, etc.
 // I never want to deal with any merge conflicts. Effectively all of "our"
 // changes to this project are contained in this script.
