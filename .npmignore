@@ -16,3 +16,5 @@
 /dist/*.bundle.js
 /logo.png
 /upstream
+/sync-fork-after
+/sync-fork-before
