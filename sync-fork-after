@@ -9,7 +9,7 @@ shell.exec('git config --global user.name "Brad Jones"');
 shell.exec('git add -A');
 shell.exec('git commit -m "Automatically synced with upstream github.com:wix/tspoon"');
 shell.exec('git tag '+shell.exec('git --git-dir ./upstream/.git --work-tree ./upstream describe --abbrev=0 --tags').stdout);
-shell.exec('git push https://'+process.env.GH_TOKEN+'@github.com/brad-jones/tspoon.git master --tags', {slient:true});
+shell.exec('git push https://'+process.env.GH_TOKEN+'@github.com/brad-jones/tspoon.git master --tags', {silent:true});
 
 // Publish to NPM
 shell.exec('npm publish --access public');
