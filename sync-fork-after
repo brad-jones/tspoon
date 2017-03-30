@@ -1,5 +1,20 @@
 #!/usr/bin/env node
 var shell = require('shelljs');
+
+// Tell git who we are.
+shell.exec('git config --global user.email "brad@bjc.id.au"');
+shell.exec('git config --global user.name "Brad Jones"');
+
+// Commit the changes that just passed tests
+shell.exec('git add -A');
+shell.exec('git commit -m "Automatically synced with upstream github.com:wix/tspoon"');
+
+// Grab the tag from upstream again and tag our repo
+shell.exec('git tag '+shell.exec('git --git-dir ./upstream/.git --work-tree ./upstream describe --abbrev=0 --tags').stdout);
+
+// Push changes and the new tag
 shell.exec('git push https://'+process.env.GH_TOKEN+'@github.com/brad-jones/tspoon.git master', {silent:true});
 shell.exec('git push https://'+process.env.GH_TOKEN+'@github.com/brad-jones/tspoon.git --tags', {silent:true});
+
+// Publish to NPM
 shell.exec('npm publish --access public');
