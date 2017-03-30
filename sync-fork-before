@@ -28,6 +28,9 @@ shell.cp('./upstream/tsconfig.json', './');
 shell.cp('./upstream/webpack.config.js', './');
 shell.cp('./upstream/yarn.lock', './');
 
+// Delete the upstream so that ambient typings do not cause "Duplicate identifier" errors.
+shell.rm('-rf', './upstream');
+
 // Apply some updates to package.json
 var pkg = require(__dirname + '/package.json');
 pkg.name = '@brad-jones/tspoon';
