@@ -1889,9 +1889,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.258:
-  version "1.0.258"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.258.tgz#3717f9f6aed9c1a2beda0f21a4bef2675bba26ff"
+npminject@1.0.259:
+  version "1.0.259"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.259.tgz#37d5f9be23bc08005f0ceac4b010f15ac8de51fb"
 
 npmlog@^4.0.2:
   version "4.0.2"
@@ -2900,9 +2900,9 @@ type-is@~1.6.14:
     media-typer "0.3.0"
     mime-types "~2.1.13"
 
-typescript@2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.1.6.tgz#40c7e6e9e5da7961b7718b55505f9cac9487a607"
+typescript@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.2.tgz#606022508479b55ffa368b58fee963a03dfd7b0c"
 
 uglify-js@~2.7.3:
   version "2.7.5"
