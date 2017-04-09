@@ -6,9 +6,9 @@
   version "3.4.35"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.4.35.tgz#e8d65f83492d2944f816fc620741821c28a8c900"
 
-"@types/lodash@4.14.61":
-  version "4.14.61"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.61.tgz#0518c10805b1f9d21f98f82b1311ac2a6ec75892"
+"@types/lodash@4.14.62":
+  version "4.14.62"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.62.tgz#8674f9861582148a60b7a89cb260f11378d11683"
 
 "@types/mocha@2.2.40":
   version "2.2.40"
@@ -1889,9 +1889,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.261:
-  version "1.0.261"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.261.tgz#a79cc6f63a072384b23a3a3440ac7e892b52de89"
+npminject@1.0.264:
+  version "1.0.264"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.264.tgz#7ab2cf955e7854787cbd3b0d641e2c6ded97743d"
 
 npmlog@^4.0.2:
   version "4.0.2"
