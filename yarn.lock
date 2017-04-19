@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@types/chai@3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.5.0.tgz#45e2dc2af9a5727be846af6e61d08ffc45d5b2ca"
+"@types/chai@3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.5.1.tgz#9bd77fe12503ae00648b0945b38eab666adffe2e"
 
 "@types/lodash@4.14.62":
   version "4.14.62"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.62.tgz#8674f9861582148a60b7a89cb260f11378d11683"
 
-"@types/mocha@2.2.40":
-  version "2.2.40"
-  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.40.tgz#9811dd800ece544cd84b5b859917bf584a150c4c"
+"@types/mocha@2.2.41":
+  version "2.2.41"
+  resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.41.tgz#e27cf0817153eb9f2713b2d3f6c68f1e1c3ca608"
 
-"@types/node@7.0.12":
-  version "7.0.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.12.tgz#ae5f67a19c15f752148004db07cbbb372e69efc9"
+"@types/node@7.0.13":
+  version "7.0.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.13.tgz#1b0a53fe9ef9c3a5d061b126cc9b915bca43a3f5"
 
 "@types/source-map@0.5.0":
   version "0.5.0"
@@ -1889,9 +1889,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.269:
-  version "1.0.269"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.269.tgz#8316f20b262416413fd04d7e3aa1876758db2c75"
+npminject@1.0.274:
+  version "1.0.274"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.274.tgz#ea05043c5fb6834181a196974a09eb5cf7277ff4"
 
 npmlog@^4.0.2:
   version "4.0.2"
