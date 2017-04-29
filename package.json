@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@brad-jones/tspoon",
-  "version": "1.0.395",
+  "version": "1.0.398",
   "description": "AST visitors for TypeScript",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/brad-jones/tspoon",
   "devDependencies": {
-    "@types/chai": "3.5.1",
+    "@types/chai": "3.5.2",
     "@types/lodash": "4.14.63",
     "@types/mocha": "2.2.41",
     "@types/node": "7.0.14",
@@ -49,20 +49,20 @@
     "mocha": "3.3.0",
     "mocha-env-reporter": "2.0.4",
     "mocha-loader": "1.1.1",
-    "npminject": "1.0.283",
+    "npminject": "1.0.286",
     "rimraf": "2.6.1",
     "ts-loader": "2.0.3",
     "webpack": "1.14.0",
     "webpack-dev-server": "1.16.2",
-    "typescript": "2.2.2"
+    "typescript": "2.3.2"
   },
   "dependencies": {
     "lodash": "4.17.4",
     "magic-string": "0.19.0",
     "source-map": "0.5.6",
-    "source-map-support": "0.4.14"
+    "source-map-support": "0.4.15"
   },
   "peerDependencies": {
-    "typescript": ">=2.2.2"
+    "typescript": ">=2.3.2"
   }
 }
