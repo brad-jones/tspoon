@@ -14,9 +14,9 @@
   version "2.2.41"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.41.tgz#e27cf0817153eb9f2713b2d3f6c68f1e1c3ca608"
 
-"@types/node@7.0.16":
-  version "7.0.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.16.tgz#e3440e3ce4d4931616ac418cc4dc16cd94b80092"
+"@types/node@7.0.18":
+  version "7.0.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.18.tgz#cd67f27d3dc0cfb746f0bdd5e086c4c5d55be173"
 
 "@types/source-map@0.5.0":
   version "0.5.0"
@@ -1915,9 +1915,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.292:
-  version "1.0.292"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.292.tgz#fb1caf02baeed19f02390f88d37115bb5659004e"
+npminject@1.0.293:
+  version "1.0.293"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.293.tgz#3832534ae0d8f5e970247b2d513f7499b4a14da8"
 
 npmlog@^4.0.2:
   version "4.0.2"
