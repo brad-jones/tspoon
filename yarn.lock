@@ -6,9 +6,9 @@
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.5.2.tgz#c11cd2817d3a401b7ba0f5a420f35c56139b1c1e"
 
-"@types/lodash@4.14.63":
-  version "4.14.63"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.63.tgz#5ac475f55bfdc62bc88c4239dbc482f2f3bead93"
+"@types/lodash@4.14.64":
+  version "4.14.64"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.64.tgz#979cf3a3d4a368670840bf9b3e448dc33ffe84ee"
 
 "@types/mocha@2.2.41":
   version "2.2.41"
@@ -1484,9 +1484,9 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-karma-chrome-launcher@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/karma-chrome-launcher/-/karma-chrome-launcher-2.1.0.tgz#c9769b655d80485236d88e4fbd77a768ff834e77"
+karma-chrome-launcher@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/karma-chrome-launcher/-/karma-chrome-launcher-2.1.1.tgz#216879c68ac04d8d5140e99619ba04b59afd46cf"
   dependencies:
     fs-access "^1.0.0"
     which "^1.2.1"
@@ -1518,9 +1518,9 @@ karma-teamcity-reporter@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/karma-teamcity-reporter/-/karma-teamcity-reporter-1.0.0.tgz#d33c1217753c141897f64560f25f0f37be905233"
 
-karma@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/karma/-/karma-1.6.0.tgz#0e871d4527d5eac56c41d181f03c5c0a7e6dbf3e"
+karma@1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/karma/-/karma-1.7.0.tgz#6f7a1a406446fa2e187ec95398698f4cee476269"
   dependencies:
     bluebird "^3.3.0"
     body-parser "^1.16.1"
@@ -1915,9 +1915,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.293:
-  version "1.0.293"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.293.tgz#3832534ae0d8f5e970247b2d513f7499b4a14da8"
+npminject@1.0.295:
+  version "1.0.295"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.295.tgz#b922313bca7f4869d2f525a65f7fb35c8225d3d7"
 
 npmlog@^4.0.2:
   version "4.0.2"
