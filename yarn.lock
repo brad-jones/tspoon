@@ -1688,9 +1688,9 @@ macaddress@^0.2.8:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/macaddress/-/macaddress-0.2.8.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
 
-magic-string@0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.19.0.tgz#198948217254e3e0b93080e01146b7c73b2a06b2"
+magic-string@0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.19.1.tgz#14d768013caf2ec8fdea16a49af82fc377e75201"
   dependencies:
     vlq "^0.2.1"
 
@@ -1915,9 +1915,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.295:
-  version "1.0.295"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.295.tgz#b922313bca7f4869d2f525a65f7fb35c8225d3d7"
+npminject@1.0.297:
+  version "1.0.297"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.297.tgz#cb292b82615fd593b0f9f1268813ff63569cd0a8"
 
 npmlog@^4.0.2:
   version "4.0.2"
