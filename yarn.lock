@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/chai@3.5.2":
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.5.2.tgz#c11cd2817d3a401b7ba0f5a420f35c56139b1c1e"
+"@types/chai@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.0.0.tgz#4c9adabd2d04265769e6d9e847e86cc404dc7dcd"
 
 "@types/lodash@4.14.64":
   version "4.14.64"
@@ -1915,9 +1915,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.319:
-  version "1.0.319"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.319.tgz#f2174fdd49dbadbe9a43df3a425f76c0346d5bdb"
+npminject@1.0.321:
+  version "1.0.321"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.321.tgz#ee9958373ce51825c2219eabc889b5ebd414f1d1"
 
 npmlog@^4.0.2:
   version "4.0.2"
