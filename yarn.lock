@@ -1915,9 +1915,9 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-npminject@1.0.336:
-  version "1.0.336"
-  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.336.tgz#fcbf2503445359d5c029f7d66341187cacdea6f3"
+npminject@1.0.337:
+  version "1.0.337"
+  resolved "https://registry.yarnpkg.com/npminject/-/npminject-1.0.337.tgz#060d13e1be0deded5101d5b9e2d2f8304ba261b6"
 
 npmlog@^4.0.2:
   version "4.0.2"
